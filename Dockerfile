@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
         htop \
         tmux \
         libsqlite3-dev \
-        libnotify-bin
+        libnotify-bin \
 
 	&& mkdir -p /app_temp/app \
 	&& mkdir -p /app_temp/logs \
